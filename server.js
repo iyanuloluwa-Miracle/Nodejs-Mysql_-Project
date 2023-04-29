@@ -1,3 +1,4 @@
+require('dotenv').config();
 //This is the package for calling express and handling errors
 const express = require('express')
 //The package required  for calling body Parser
@@ -13,7 +14,7 @@ const employeeroutes = require('./routes/employee-routes')
 
 
 
-require('dotenv').config()
+
 
 // Use middleware
 app.use(express.json());
